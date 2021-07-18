@@ -1,0 +1,65 @@
+
+
+
+@media only screen and (max-width: 688px){
+
+    .container{
+        width: 100%;
+        background-color:green;
+    }
+    
+    /*-----------------------------------------------------------------------------------------------------------------------
+                                            header & navigation-bar-start 
+----------------------------------------------------------------------------------------------------------------------- */
+
+main,footer{
+    display:none;
+}
+
+
+
+.header-nav {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+.header-nav>.mobile-menu {
+     width:33.33%;
+    display: block;
+}
+.header-nav>.mobile-menu>i{
+    font-size:55px;
+    color:#fff;
+}
+.navbar{
+    display:none;
+    width:33.33%;
+}
+.header-nav>.navbar-login{
+    margin
+    width:33.33%;
+}
+.header-nav>.navbar-login>button {
+    background-color: hsl(169, 41%, 95%);
+    color: #e00f0fa4;
+    width: 123px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-nav>.navbar-login>button>i {
+    margin-right: 5px;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+                                            header & navigation-bar-end
+ ----------------------------------------------------------------------------------------------------------------------*/
+ 
+}
